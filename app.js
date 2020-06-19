@@ -1,4 +1,6 @@
-//CHAPTER 1 ALERTS 
+////////================CHAPTER 1 ALERTS=====================///////////////////////////////////////////////////////////////////////
+
+
 // TASK 1
 //alert("hello world");
 
@@ -17,12 +19,14 @@
 // TASK 6 AND 7 DONE AND CHECKED.
 
 
-// CHAPTER 2 VARIABLES FOR STRINGS
+//////////========= CHAPTER 2 VARIABLES FOR STRINGS==========/////////////////////////////////////////////////////////////////////
+
+
 // TASK 1
 //var username;
 
 // TASK 2
-//var myName="Farrukh";
+//var myName="Bisma Shaikh";
 
 // Task 3 (a,b,c)
 //var message;
@@ -57,7 +61,9 @@
 // alert(x);
 
 
-// CHAPTER 3 VARIABLES FOR NUMBERS
+//////////=========== CHAPTER 3 VARIABLES FOR NUMBERS=========//////////////////////////////////////////////////////////////////////
+
+
 // TASK 1 
 // var age = 15;
 // alert("I am "+age+" years old");
@@ -79,7 +85,9 @@
 // alert(name+" ordered "+quantity+" "+product+" (s) on XYZ Clothing store.");
 
 
-// CHAPTER 4 
+////////================= CHAPTER 4====================////////////////////////////////////////////////////////////////////////////
+
+
 // VARIABLES NAMES : LEGAL AND ILLEGAL
 // TASK 1 
 //var x="Hello " , y="World " , z="2020";
@@ -101,7 +109,9 @@
 // document.write("Variable name can only contain, numbers,$ and _.For example: $my_1stVariable <br> Variable must begin with a letter, $ or _.For example: $name, _name or name <br> Variable name are case sensitive <br> Variable name should not be JS keywords")
 
 
-// CHAPTER 5 
+///////////////================ CHAPTER 5 =================/////////////////////////////////////////////////////////////////////////
+
+
 // MATH EXPRESSIONS
 // TASK 1
 // var x= +prompt("Enter 1st number: ");
@@ -197,6 +207,7 @@
 // var x = 2;
 // x=((x+5)*10)/2;
 // document.write("Result is: "+x);
+
 // TASK 11
 // var current_year=+prompt("Write current year: ");
 // var birth_year=+prompt("Write your birth year: ");
@@ -228,7 +239,9 @@
 // document.write("Amount of snacks per day: "+amount+"<br>");
 // document.write("You will need "+cal+" "+snack+" to last you untill the ripe old of "+maxAge);
 
-// CHAPTER 6-9 
+////////////============= CHAPTER 6-9 ============//////////////////////////////////////////////////////////////////////////////////
+
+
 // MATH EXPRESSIONS
 // TASK 1 
 // var a = +prompt("Write a number: ");
@@ -303,7 +316,10 @@
 // document.write("<pre>"+s3+"        "+t3+"             "+m3+"                "+p3+"</pre>");
 // document.write("<pre>                  "+total+"             "+marks+"                "+per+"</pre>");
 
-// CHAPTER 9-11
+
+//////////============ CHAPTER 9-11m =============///////////////////////////////////////////////////////////////////////////////
+
+
 // USER INPUT AND CONDITIONAL STATEMENT
 // TASK 1 
 // var city=prompt("Enter city name: ");
@@ -370,19 +386,487 @@
 // document.write("Total marks: "+total+"<br>");
 // document.write("Marks obtained: "+sub+"<br>");
 // document.write("Percentage: "+per+"%<br>");
-// if (per>="80"){
+// if (per>=80){
 //     document.write("Grade: A-one <br>")
 //     document.write("Remarks: Excellent <br>")
 // }
-// else if (per>="70"){
+// else if (per>=70){
 //     document.write("Grade: A <br>")
 //     document.write("Remarks: Good <br>")
 // }
-// else if (per>="60"){
+// else if (per>=60){
 //     document.write("Grade: B <br>")
 //     document.write("Remarks: You need to improve <br>")
 // }
-// else if (per<"60"){
+// else if (per<60){
 //     document.write("Grade: Fail <br>")
 //     document.write("Remarks: Sorry <br>")
 // }
+
+// TASK 7
+// var secretnum = 7;
+// var guessnum = +prompt("Guess the secret number (ranging from 1 to 10: ");
+// if(guessnum===secretnum){
+//     alert("Bingo! Correct answer")
+// }
+// else if(++guessnum===secretnum){
+//     alert("Close enough to the correct answer")
+// }
+
+// TASK 8
+// check whether the given number is divisible by 3
+// var x = +prompt("Enter number: ")
+// if(x%3===0){
+//     alert("Your number is divisible by 3")
+// }
+
+// TASK 9
+// checks whether the given input is an even number or an odd number
+//  var x = +prompt("Enter number:  ")
+//  if(x%2===0){
+//      alert("Your number is even")
+//  }
+// else if(x%2!==0){
+//     alert("Your number is odd")
+// }
+
+// TASK 10
+// var T = +prompt("Enter temperature","Enter numeric values only")
+// if(T>40){
+//     alert("It is too hot outside.")
+// }
+// else if(T>30){
+//     alert("The Weather today is Normal.")
+// }
+// else if(T>20){
+//     alert("Today’s Weather is cool.")
+// }
+// else if(T>10){
+//     alert("OMG! Today’s weather is so Cool.")
+// }
+
+// TASK 11 
+// CALCULATOR
+// var x = +prompt("Enter first number: ")
+// var z = prompt("Enter Operation sign: ")
+// var y = +prompt("Enter second number: ")
+// if (z=="+"){
+//     alert(x+y)
+// }
+// else if (z=="-"){
+//     alert(x-y)
+// }
+// else if (z=="/"){
+//     alert(x/y)
+// }
+// else if (z=="%"){
+//     alert(x%y)
+// }
+
+///////////////////============ CHAPTER 12-13 ===========////////////////////////////////////////////////////////////////////////////
+
+
+// IF…ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS
+// TASK 1 
+// var x = prompt("enter char(number or string): ")
+// var y =x.charCodeAt()
+// if(y>=65 && y<=90){
+//     alert("Your input is a uppercase letter")
+// }
+// else if(y>=97 && y<=122){
+//     alert("Your input is a lower letter")
+// }
+// else(
+//     alert("Your input is a number")
+// )
+
+
+
+
+// TASK 2
+// var x= +prompt("Enter 1st integer: ")
+// var y= +prompt("Enter 2nd integer: ")
+// if(x>y){
+//     alert("1st integer: "+x+", is greater than 2nd integer: "+y)
+// }
+// else if(y>x){
+//     alert("2nd integer: "+y+", is greater than 1st integer: "+x)
+// }
+// else if(x===y){
+//     alert("Both integers are equal")
+// }
+
+// TASK 3
+// var num=+prompt("Enter number :")
+
+// if (num>0)
+// {
+// document.write(num+" is positive ")
+// }
+// else if (num<0)
+// {
+//     document.write(num+" is negative")
+// }
+// else if (num==0)
+// {
+//     document.write(num+" is zero")
+// }
+// else
+// {
+//     document.write("please enter only integer to check")
+// }
+
+// TASK 4
+// var x=prompt("Enter a character to check vowel or not: ")
+// if(x=='a'||x=='e'||x=='i'||x=='o'||x=='u' ||x=='A'||x=='E'||x=='I'||x=='O'||x=='U'){
+//     alert("True (vowel)")
+// }
+// else{
+//     alert("False (not vowel)")
+// }
+
+// TASK 5
+// var pass = "charcoal001"
+// var x = prompt("Please enter your password: ")
+// if(x==pass){
+//     alert("Correct! The password you entered matches the original password")
+// }
+// else{
+//     alert("Incorrect password")
+// }
+
+// TASK 6
+//This if/else statement does not work. Try to fix it: 
+// var greeting; 
+// var hour = 13; 
+// if (hour < 18) { 
+//     greeting = "Good day";
+//     alert(greeting);
+//      } 
+// else greeting = "Good evening";
+// alert(greeting);
+
+// TASK 7
+// var time = +prompt("Enter time in 24 hours format (like: 1900 = 7pm): ")
+// if(time>=0000 && time<1200){
+//           alert("Good Morning!")
+// }
+// else if(time>=1200 && time<1700){
+//     alert("Good Afternoon!")
+// }
+// else if(time>=1700 && time<2100){
+//     alert("Good Evening!")
+// }
+// else if(time>=2100 && time<=2359){
+//     alert("Good Night!")
+// }
+
+/////////////========== CHAPTER 14-16 ==================////////////////////////////////////////////////////////////////////////////
+
+
+// ARRAYS 
+// TASK 1 
+// var empty_array=[""];
+
+// TASK 2 
+// var empty_array=["",];
+
+// TASK 3
+//var arr= ["web","mobile","app"];
+
+// TASK 4
+//var arr= [100,200,500];
+
+// TASK 5 
+//-var bol=[true,false,true];
+
+// TASK 6
+// var arr= ["web","mobile",200];
+
+
+// TASK 7
+// var x = ["","SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"]
+// document.write("<h3>Qualifications:</h3>")
+// for(var i=1; i<x.length;i++){
+//     document.write(i+") "+x[i]+" <br>");
+// }
+// OR
+//  var x = ["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"];
+//  document.write("<h3>Qualifications:</h3>");
+//  document.write("1) "+x[0]+"<br>");
+//  document.write("2) "+x[1]+"<br>");
+//  document.write("3) "+x[2]+"<br>");
+//  document.write("4) "+x[3]+"<br>");
+//  document.write("5) "+x[4]+"<br>");
+//  document.write("6) "+x[5]+"<br>");
+//  document.write("7) "+x[6]+"<br>");
+//  document.write("8) "+x[7]+"<br>");
+
+
+// TASK 8
+// var x=["Michael","John","Tony"];
+// var marks=[320,230,480];
+// var total=500;
+// for(var i=0; i<x.length;i++)
+// {
+//     document.write("Score of "+x[i]+" is "+marks[i]+". Percentage: "+marks[i]/total*100+"% <br>")
+// }
+
+// TASK 9 
+// var color=["red","green","blue","orange","black"];
+
+// var x = prompt("What color you want to add to the beginning: ");
+// var y = prompt("What color you want to add to the end: ");
+// color.unshift(x);
+
+// color.push(y);
+
+// var a = prompt("Add two more color to the beginning of the array, color 1: ");
+// var b = prompt("Color 2: ");
+// color.unshift(a);
+// color.unshift(b);
+// color.shift();
+// color.pop();
+
+// var c = prompt("At which index you want to add a color: ");
+// var d = prompt("Color name: ");
+// color.splice(c,0,d);
+//  var e = prompt("At which index you want to delete color(s): ")
+//  var f = prompt("How many colors you want to delete: ")
+// color.splice(e,f)
+// document.write(color);
+
+// TASK 10
+// var arr1 = [320,230,480,120]
+// document.write("Scores of students: "+arr1+"<br>")
+// arr1.sort();
+// document.write("Ordered Scores of students: "+arr1+"<br>");
+
+// TASK 11
+// var arr1 = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+// document.write("Cities list: <br>"+arr1+"<br><br>");
+// var arr2=arr1.slice(2,4);
+// document.write("Selected cities list: <br>"+arr2);
+
+// TASK 12 
+// var arr = ["This", "is", "my","cat"];
+// document.write("Array: <br> "+arr+"<br><br>");
+// document.write("String: <br> "+arr.join(" "));
+
+// TASK 13 FIFO METHOD
+// var arr = [];
+// arr.push("keyboard");
+// arr.push("mouse");
+// arr.push("printer");
+// arr.push("monitor");
+// document.write("Devices: <br>"+arr+"<br><br>");
+// document.write("Out: <br>"+arr.shift()+"<br>");
+// document.write("Out: <br>"+arr.shift()+"<br>");
+// document.write("Out: <br>"+arr.shift()+"<br>");
+// document.write("Out: <br>"+arr.shift()+"<br>");
+
+// OR By Loop
+// var arr = [];
+// arr.push("keyboard");
+// arr.push("mouse");
+// arr.push("printer");
+// arr.push("monitor");
+// document.write("Devices: <br>"+arr+"<br><br>");
+// for(var i=0; i<4; i++){
+// document.write("Out: <br>"+arr.shift()+"<br>");
+// }
+
+// TASK 14 LIFO METHOD
+// var arr = [];
+// arr.push("keyboard");
+// arr.push("mouse");
+// arr.push("printer");
+// arr.push("monitor");
+// document.write("Devices: <br>"+arr+"<br><br>");
+// document.write("Out: <br>"+arr.pop()+"<br>");
+// document.write("Out: <br>"+arr.pop()+"<br>");
+// document.write("Out: <br>"+arr.pop()+"<br>");
+// document.write("Out: <br>"+arr.pop()+"<br>");
+
+// OR By Loop
+// var arr = [];
+// arr.push("keyboard");
+// arr.push("mouse");
+// arr.push("printer");
+// arr.push("monitor");
+// document.write("Devices: <br>"+arr+"<br><br>");
+// for(var i=0; i<4; i++){
+// document.write("Out: <br>"+arr.pop()+"<br>");
+// }
+
+// TASK 15
+// var arr = ["Apple", "Samsung", "Motorola", "Nokia", "Sony" , "Haier"]
+// document.write("<select>")
+// for(var i=0; i<arr.length; i++){
+//     document.write("<option>"+arr[i]+"</option>")
+// }
+// document.write("</select>")
+
+
+
+
+
+
+
+///////////////////========== CHAPTER 17-20 ==========///////////////////////////////////////////////////////////////////////////////
+
+
+// ARRAYS AND LOOPS
+// TASK 1 
+// var mul_arr=[[],[],[]];
+
+// TASK 2 
+// var arr=[[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// for (var i=0; i<arr.length; i++){
+//     document.write(arr[i].join(" ")+"<br>")
+// }
+
+// TASK 3
+// for(var i=1; i<=10; i++){
+//     document.write(i+"<br>")
+// }
+
+// TASK 4
+// var a=+prompt("Enter a number to show its multiplication table");
+// var b=+prompt("Enter length of multiplication table");
+
+// document.write("Multiplication table of "+a+"<br>");
+// document.write("Length "+b+"<br><br>");
+// for(var i=1; i<=b; i++){
+//     document.write(a+" x "+i+" = "+a*i)
+//     document.write("<br>")
+// }
+
+// TASK 5
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"]
+// for(var i=0; i<fruits.length; i++){
+//     document.write(fruits[i]+"<br>")  
+// }
+// document.write("<br>")
+// for(var i=0; i<fruits.length; i++){
+//     document.write("Element at index "+i+" is "+fruits[i]+"<br>")  
+// }
+
+// TASK 6
+// document.write("<b>Counting:</b><br><br>")
+// for(var i=0; i<=15; i++){
+//     document.write(i+",")
+// }
+// document.write("<br><br><b>Reverse Counting:</b><br><br>")
+// for(var i=10; i>=0; i--){
+//     document.write(i+",")
+// }
+// document.write("<br><br><b>Even:</b><br><br>")
+// for(var i=0; i<=20; i++){
+//     if(i%2==0){
+//         document.write(i+",")
+//     }
+
+// }
+// document.write("<br><br><b>Odd:</b><br><br>")
+// for(var i=0; i<=20; i++){
+//     if(i%2!==0){
+//         document.write(i+",")
+//     }
+
+// }
+// document.write("<br><br><b>Series:</b><br><br>")
+// for(var i=2; i<=20; i++){
+//     if(i%2==0){
+//         document.write(i+"k,")
+//     }
+
+// }
+
+// TASK 7
+
+//  var items = ["cake", "apple pie", "cookie", "chips", "patties"]
+//  var search = prompt("Welcome to ABC Bakery.What do you want to order sir/ma'am?")
+//  if(items.indexOf(search)!==-1){
+//      document.write(search+" is <b>available</b> at index "+items.indexOf(search)+" in our bakery")
+//  }
+//  else{
+//     document.write("We are sorry, "+search+" is <b>not available</b>  in our bakery")
+//  }
+
+// OR 2nd Method
+// var a=["cake","apple pie","cookie","chips","patties"]
+// var item=prompt("Enter item to check: ")
+// var match=false;
+// for (var i=0; i<6; i++)
+// {
+//     if (item==a[i])
+//     {
+//         match=true
+//         alert(item+" is available at index "+i+" in our bakery")
+//     }
+
+// }
+// if (match===false)
+// {
+//     alert("We are sorry! "+item+" is not availabe in our bakery")
+// }
+
+
+// TASK 8
+// var A = [24, 53, 78, 91,12];
+// var largest="";
+// for(var i=0; i<5; i++)
+// {
+//  if (largest==="")
+//  {
+//      largest=A[i]
+//  }
+//  else if(A[i]>largest)
+//  {
+//      largest=A[i]
+//  }
+
+// }
+// document.write("Array items: "+A+"<br>")
+// document.write(" The Largest number is: "+largest)
+
+// OR 2ND METHOD
+// var arr = [24, 53, 78, 91, 12]
+// document.write("Array items: "+arr+"<br>")
+// var max = Math.max.apply(Math, arr)
+// document.write("The largest number is "+max)
+
+// TASK 9
+
+// var arr = [24, 53, 78, 91, 12]
+// document.write("Array items: "+arr+"<br>")
+// var min = Math.min.apply(Math, arr)
+// document.write("The smallest number is "+min)
+
+// OR
+//var A = [24, 53, 78, 91,12];
+// var smallest="";
+// for(var i=0; i<5; i++)
+// {
+//  if (smallest==="")
+//  {
+//      smallest=A[i]
+//  }
+//  else if(A[i]<smallest)
+//  {
+//      smallest=A[i]
+//  }
+
+// }
+// document.write("Array items: "+A+"<br>")
+// document.write(" The Smallest number is: "+smallest)
+
+// TASK 10
+// for(var i=1; i<=100; i++){
+//     if(i%5==0){
+//         document.write(i+",")
+//     }
+// }
+
+//----------------------20 CHAPTERS END--------------------//
